@@ -2,7 +2,7 @@
 layout: single
 title: TryHackMe
 excerpt: "Una plataforma dedicada al aprendizaje de Pentesting"
-date: 2024-01-01
+date: 2024-10-15
 classes: wide
 header:
   teaser: /assets/images/TryHackme/Portada.jpg
