@@ -20,7 +20,7 @@ title                    : "Cyber4rlekiing | Ciberseguridad"
 title_separator          : "-"
 name                     : "4rlekiing"
 description              : "Artículos sobre ciberseguridad e investigaciones"
-url                      : "https://4rleki-ing.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.4kiing.net/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "4rleki-ing/4rleki-ing.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #logo                     : "/assets/images/masthead.png"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "S4vitar"
+  name             : "4rlekiing"
   avatar           : "/assets/images/avatar.png"
   bio              : "Bug Hunter"
   uri              :
