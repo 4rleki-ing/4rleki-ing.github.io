@@ -8,9 +8,10 @@ header:
   teaser: /assets/images/Github.Pages/Pages.png
   teaser_home_page: true
 categories:
-  - Sistema Operativo
+  - Sitio Web
 tags:
-  - Código Abierto
+  - Github
+  - Cloudflare
 ---
 
 <p align="center">
