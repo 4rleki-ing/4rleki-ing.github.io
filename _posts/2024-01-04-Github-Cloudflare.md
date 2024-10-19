@@ -14,7 +14,7 @@ tags:
 ---
 
 <p align="center">
-<img src="/assets/images/Github.pages/Portada.png">
+<img src="/assets/images/Github.Pages/Portada.png">
 </p>
 
 [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) está disponible en repositorios públicos con *Github Free* y *Github Free* para organizaciones, y en repositorios públicos y privados con *GitHub Pro*, *GitHub Team*, *GitHub Enterprise Cloud* y *GitHub Enterprise Server*. Para obtener más información ir a [Planes de Github](https://docs.github.com/en/get-started/learning-about-github/githubs-plans).
@@ -27,7 +27,8 @@ Puede configurar o actualizar ciertos *registros DNS* y la configuración de su 
 ```text
 Consejo.
 
-  Se recomienda verificar el el dominio personalizado antes de agregarlo a su repositorio para mejorar la seguridad y evitar ataques de apropiación.
+    Se recomienda verificar el el dominio personalizado antes de agregarlo a su repositorio 
+  para mejorar la seguridad y evitar ataques de apropiación.
 ```
 
 Para obtener más información, consulte: [Verificación de dominio personalizado](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages) para páginas de Github.
@@ -56,7 +57,7 @@ Para configurar un *dominio de ápice*, como `example.com`, debe configurar un d
 
 - Para crear registros `A`, apunte su dominio Apex a las direcciones IP de las páginas de Github.
 
-```Text
+```text
 185.199.108.153
 185.199.109.153
 185.199.110.153
@@ -65,7 +66,7 @@ Para configurar un *dominio de ápice*, como `example.com`, debe configurar un d
 
 - Para crear registros `AAAA`, apunte su dominio Apex a las direcciones IP de las páginas de GitHub.
 
-```Text
+```text
 2606:50c0:8000::153
 2606:50c0:8001::153
 2606:50c0:8002::153
@@ -158,3 +159,25 @@ $ dig www.example.com +nostats +nocomments +nocmd
 **Nota:** Si apunta su subdominio personalizado a su dominio Apex, tendrá problemas para aplicar HTTPS a su sitio web y puede tener problemas en los que su subdominio no llegue a su sitio de Github Pages en absoluto.
 
 ### Registro DNS para Dominio personalizado
+Si está familiarizado con el proceso de configuración de su dominio para un sitio de Github Pages, puede utilizar la siguiente tabla para encontrar los valores de DNS para su situación específica y los tipos de registros de DNS que admite su proveedor de DNS. Para obtener más información, incluido como configurar su sitio de Github Pages en Github y cómo verificar la configuración mediante el comando `dig`, consulte las secciones anteriores.
+
+Para configurar un dominio de vértice, solo necesita elegir un único tipo de registro DNS de la tabla que aparece a continuación. Para configurar un dominio de vértice y un subdominio `www` (por ejemplo, `example.com` y `www.example.com`), configure el dominio de vértice y luego el subdominio. Para obtener más información, consulte: [Configuración de dominio de vértice y subdominio](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site?platform=linux#configuring-an-apex-domain-and-the-www-subdomain-variant).
+
+**Advertencia:** Se recomienda encarecidamente que no se utilice registros DNS (comodín); ejemplo, `*.example.com`. Estos registros ponen en riesgo inmediato de que alguien se apodere de su dominio, incluso si se verifica. Por ejemplo, si se verifica `example.com`, esto evita que alguien use `a.example.com`, pero aún podría apoderarse de `b.a.example.com` (lo que está cubierto por el registro DNS comodín). Para obtener más información, consulta: [Verificar dominio personalizado](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages) para GitHub Pages.
+
+| Guión                          | Tipo de Registro DNS | Nombre de Registro DNS  | Valores de registro DNS  |
+|--------------------------------|----------------------|-------------------------|--------------------------|
+| Dominio Apex (`example.com`)   |          A           |           @             | `185.199.109.153`        |
+|                                |                      |                         | `185.199.110.153`        |
+|                                |                      |                         | `185.199.111.153`        |
+| Dominio Apex (`example.com`)   |         AAAA         |           @             | `2606:50c0:8000::153`    |
+|                                |                      |                         | `2606:50c0:8001::153`    |
+|                                |                      |                         | `2606:50c0:8002::153`    |
+|                                |                      |                         | `2606:50c0:8003::153`    |
+| Dominio Apex (`example.com`)   |  `ALIAS` o `ANAME`   |           @             | `Username.github.io`     |
+|                                |                      |                         | `Organization.github.io` |
+| Subdominio (`www.example.com`) |       `CNAME`        | `Subdomain.example.com` | `Username.github.io`     |
+|                                |                      |                         | `Organization.github.io` |
+
+
+*[Referencia (GitHub - docs)](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site?platform=linux)*
