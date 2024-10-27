@@ -2,7 +2,7 @@
 layout: single
 title: Implementando Github Pages con Cloudflare
 excerpt: "Se trata de un pequeño manual donde se explica como obtener un sitio web personal implementando Github y Cloudflare."
-date: 2024-10-12
+date: 2024-10-24
 classes: wide
 header:
   teaser: /assets/images/Github.Pages/Pages.png
