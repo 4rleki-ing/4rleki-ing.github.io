@@ -2,7 +2,7 @@
 layout: single
 title: Curso Node.js
 excerpt: ""
-date: 2024-10-24
+date: 2024-11-01
 classes: wide
 header:
   teaser: /assets/images/

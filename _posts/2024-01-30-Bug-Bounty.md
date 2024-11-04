@@ -2,7 +2,7 @@
 layout: single
 title: Bug Bounty
 excerpt: ""
-date: 2024-10-18
+date: 2024-10-21
 classes: wide
 header:
   teaser: /assets/images/

@@ -5,18 +5,15 @@ excerpt: "Una plataforma dedicada al aprendizaje de Pentesting"
 date: 2024-10-22
 classes: wide
 header:
-  teaser: /assets/images/TryHackme/Portada.jpg
+  teaser: /assets/images/TryHackme/Logo.jpg
   teaser_home_page: true
 categories:
   - Ciberseguridad
-  - TryHackme
 tags:
-  - Pentesting
-  - OSWP
   - TryHackme
 ---
 
-![Portada](/assets/images/)
+![Portada](/assets/images/TryHackme/Portada.jpg)
 
 ## ¿Qué es TryHackMe?
 
@@ -43,5 +40,9 @@ TryHackMe permite adquirir las habilidades necesarias para una carrera en este e
 
 ### Conclusión
 TryHackMe es más que una plataforma de aprendizaje de ciberseguridad, es un portal a un mundo que se suele ver muy oscuro y misterioso. Es buena oportunidad para aprender hacking ético.
+A continuación se dejará el enlace al sitio dirigido especialmente en la descripción de cada una de las salas de TryHackme; espero lo disfrutes.
 
-A continuación se dejará el enlace al sitio dirigido especialmente en la descripción de cada una de las salas de [TryHackme](https://tryhackme.4kiing.net/); espero lo disfrutes.
+<a href="https://tryhackme.4kiing.net/">
+  <img src="/assets/images/TryHackme/Apertura.jpg" alt="Ingreso" style="width:350px;height:450px;">
+</a>
+

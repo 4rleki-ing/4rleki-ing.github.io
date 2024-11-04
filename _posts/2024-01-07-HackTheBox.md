@@ -2,7 +2,7 @@
 layout: single
 title: HackTheBox
 excerpt: "Accede al multiverso de Hack The Box y desarrollate como un profesional de la ciberseguridad."
-date: 2024-10-21
+date: 2024-10-28
 classes: wide
 header:
   teaser: /assets/images/

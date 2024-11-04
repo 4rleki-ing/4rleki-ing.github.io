@@ -1,14 +1,14 @@
 ---
 layout: single
-title: Windows
+title: Web Descentralizada
 excerpt: ""
-date: 2024-10-18
+date: 2024-10-29
 classes: wide
 header:
   teaser: /assets/images/
   teaser_home_page: true
 categories:
-  - Windows
+  - Web
 tags:
   - 
 ---
@@ -16,5 +16,4 @@ tags:
 ![Portada](/assets/images/)
 
 ## Referencias
-- [WADComs](https://wadcoms.github.io/)
-- [./Persistence info](https://persistence-info.github.io/)
+- [Escuela Proto](https://proto.school/tutorials)

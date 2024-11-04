@@ -2,7 +2,7 @@
 layout: single
 title: Descarga de Repositorios
 excerpt: ""
-date: 2024-10-18
+date: 2024-10-26
 classes: wide
 header:
   teaser: /assets/images/

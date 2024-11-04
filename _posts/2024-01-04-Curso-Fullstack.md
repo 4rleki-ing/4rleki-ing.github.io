@@ -2,7 +2,7 @@
 layout: single
 title: Curso FullStack
 excerpt: ""
-date: 2024-10-24
+date: 2024-10-31
 classes: wide
 header:
   teaser: /assets/images/
