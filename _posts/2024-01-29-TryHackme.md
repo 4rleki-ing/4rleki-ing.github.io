@@ -43,6 +43,6 @@ TryHackMe es más que una plataforma de aprendizaje de ciberseguridad, es un por
 A continuación se dejará el enlace al sitio dirigido especialmente en la descripción de cada una de las salas de TryHackme; espero lo disfrutes.
 
 <a href="https://tryhackme.4kiing.net/">
-  <img src="/assets/images/TryHackme/Apertura.jpg" alt="Ingreso" style="width:200px;height:270px;">
+  <img src="/assets/images/TryHackme/Apertura.jpg" alt="Ingreso" style="width:150px;height:180px;">
 </a>
 
