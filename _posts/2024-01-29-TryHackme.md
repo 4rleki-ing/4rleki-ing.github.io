@@ -1,7 +1,7 @@
 ---
 layout: single
 title: TryHackMe
-excerpt: "Una plataforma dedicada al aprendizaje de Pentesting"
+excerpt: "TryHackMe es una plataforma de aprendizaje en línea, específico para enseñar ciberseguridad y hacking ético de manera práctica. A diferencia de otros métodos de aprendizaje, TryHackMe te sumerge en entornos virtuales seguros donde puedes practicar tus habilidades de hacking en escenarios del mundo real sin causar ningún daño."
 date: 2024-10-22
 classes: wide
 header:
